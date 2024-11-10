@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white"
+    android:layout_alignParentEnd="true">
+
+    <ImageView
+        android:id="@+id/loginLogo"
+        android:layout_width="254dp"
+        android:layout_height="144dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/firstlogo" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="55dp"
+        android:fontFamily="monospace"
+        android:text="Verify honey purit effortlessly"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/text"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:shadowColor="@color/black"
+        android:textAlignment="center"
+        android:textColor="#090909"
+        android:textColorHint="#6E6D6D" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/email"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:shadowColor="@color/black"
+        android:textAlignment="center"
+        android:textColor="#090909"
+        android:textColorHint="#6E6D6D" />
+
+    <CheckBox
+        android:id="@+id/showpw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_marginTop="8dp"
+        android:text="Show Password"
+
+        android:textColor="@color/black"
+        android:textColorHighlight="#DE7B06"
+        android:textColorHint="#DE7B06"
+        android:textColorLink="#DE7B06" />
+
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/showpw"
+        android:layout_marginTop="16dp"
+        android:text="Log in"
+        android:textColor="@color/white"
+
+        android:background="@drawable/rounded_button"
+        />
+
+    <TextView
+        android:id="@+id/forgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginButton"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+
+        android:text="Forgot your password?"
+        android:textColor="#6E6D6D"
+        android:textSize="12sp" />
+
+</RelativeLayout>

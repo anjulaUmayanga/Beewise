@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1057185291105",
+    "firebase_url": "https://beewise-12c9c-default-rtdb.firebaseio.com",
+    "project_id": "beewise-12c9c",
+    "storage_bucket": "beewise-12c9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057185291105:android:21b8105f1664824e424320",
+        "android_client_info": {
+          "package_name": "com.example.beewise"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKEeyBHBlTGYiRK_Yp7h0TGlC5i7p4kGk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057185291105:android:c8db375e0b5197b4424320",
+        "android_client_info": {
+          "package_name": "com.item.beewise"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKEeyBHBlTGYiRK_Yp7h0TGlC5i7p4kGk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,22 @@
+<!-- circular_progress_drawable.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape
+            android:shape="ring"
+            android:innerRadiusRatio="3"
+            android:thicknessRatio="8"
+            android:useLevel="false">
+            <solid android:color="#8e8e8e " />  <!-- Black color for the unfilled part -->
+        </shape>
+    </item>
+
+    <item android:id="@android:id/progress">
+        <shape
+            android:shape="ring"
+            android:innerRadiusRatio="3"
+            android:thicknessRatio="8"
+            android:useLevel="true">
+            <solid android:color="#DE7B06" />  <!-- Gray color for the filled part -->
+        </shape>
+    </item>
+</layer-list>
